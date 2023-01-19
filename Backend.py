@@ -151,7 +151,7 @@ def main():
     PE_Y2 = None
     sub_grade = [9, 22, 34, 45, 59, 76, 100]
 
-    print(Predictor(subject_name, level, PE1, PE2, PE3, PE_Y2, sub_grade, PE1_WEIGHTAGE, PE2_WEIGHTAGE, PE_3WEIGHTAGE, PE_Y2WEIGHTAGE))
+    print(Predictor(PE1, PE2, PE3, PE_Y2, sub_grade, PE1_WEIGHTAGE, PE2_WEIGHTAGE, PE_3WEIGHTAGE, PE_Y2WEIGHTAGE))
 
 #calling main function
 if __name__ == '__main__':
